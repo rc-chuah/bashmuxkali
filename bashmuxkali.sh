@@ -7,15 +7,18 @@
 
 # Show Usage Via Command Line Arguments
 function usage() {
-  echo "~~~~~~~~~~~"
-  echo " U S A G E"
-  echo "~~~~~~~~~~~"
-  echo "Usage: ./bashmuxkali.sh [option]"
-  echo " options:"
-  echo "  -f, --full : Install Kali Nethunter In Termux Full Version."
-  echo "  -m, --minimal : Install Kali Nethunter In Termux Minimal Version."
-  echo "  -u, --uninstall : Uninstall Kali Nethunter In Termux."
-  echo "  -h, --help : Show This Help Message And Exit."
+  echo "usage: $0 [-f] [-m] [-u] [-h]"
+  echo ""
+  echo "Kali-Nethunter-In-Termux Installer"
+  echo ""
+  echo "options:"
+  echo "  -f, --full       Install Kali Nethunter In Termux"
+  echo "                   Full Version."
+  echo "  -m, --minimal    Install Kali Nethunter In Termux"
+  echo "                   Minimal Version."
+  echo "  -u, --uninstall  Uninstall Kali Nethunter In"
+  echo "                   Termux."
+  echo "  -h, --help       Show This Help Message And Exit."
   echo ""
   exit
 }
