@@ -10,7 +10,7 @@ This is a bash script by which you can install Kali Nethunter (Kali Linux) in yo
 5. Run Script `./bashmuxkali.sh <options>`
 ### bashmuxkali options
 ```
-usage: ./bashmuxkali.sh [-f] [-m] [-n] [-u] [-h]
+usage: bashmuxkali.sh [-f] [-m] [-n] [-u] [-h]
 
 Kali-Nethunter-In-Termux Installer
 
