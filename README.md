@@ -6,7 +6,7 @@ This is a bash script by which you can install Kali Nethunter (Kali Linux) in yo
 1. Install Dependencies In Termux `pkg update -y && pkg install git -y`
 2. Git Clone Repo `git clone https://github.com/rc-chuah/bashmuxkali`
 3. Change Directory `cd bashmuxkali`
-4. Give execution permission `chmod +x bashmuxkali.sh`
+4. Give Execution Permission `chmod +x bashmuxkali.sh`
 5. Run Script `./bashmuxkali.sh <options>`
 ### bashmuxkali options
 ```
