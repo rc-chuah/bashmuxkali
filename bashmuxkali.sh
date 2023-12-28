@@ -7,7 +7,7 @@
 
 # Show Usage Via Command Line Arguments
 function usage() {
-  echo "usage: $0 [-f] [-m] [-u] [-h]"
+  echo "usage: $0 [-f] [-m] [-n] [-u] [-h]"
   echo ""
   echo "Kali-Nethunter-In-Termux Installer"
   echo ""
@@ -16,6 +16,8 @@ function usage() {
   echo "                   Full Version."
   echo "  -m, --minimal    Install Kali Nethunter In Termux"
   echo "                   Minimal Version."
+  echo "  -n, --nano       Install Kali Nethunter In Termux"
+  echo "                   Nano Version."
   echo "  -u, --uninstall  Uninstall Kali Nethunter In"
   echo "                   Termux."
   echo "  -h, --help       Show This Help Message And Exit."
@@ -29,11 +31,15 @@ function usage() {
 
 # Command Line Arguments
 function full() {
-  bash -c "cd ${HOME} && $(curl -fsSL https://bit.do/fNyso) && rm -rf ${HOME}/kalifs-armhf-full.tar.xz && rm -rf ${HOME}/kalifs-arm64-full.tar.xz && rm -rf ${HOME}/kalifs-armhf-full.sha512sum && rm -rf ${HOME}/kalifs-arm64-full.sha512sum"
+  bash -c "cd ${HOME} && $(curl -fsSL https://bit.ly/install-nethunter-full-termux) && rm -rf ${HOME}/kalifs-armhf-full.tar.xz && rm -rf ${HOME}/kalifs-arm64-full.tar.xz && rm -rf ${HOME}/kalifs-armhf-full.sha512sum && rm -rf ${HOME}/kalifs-arm64-full.sha512sum"
 }
 
 function minimal() {
-  bash -c "cd ${HOME} && $(curl -fsSL https://bit.do/fNysW) && rm -rf ${HOME}/kalifs-armhf-minimal.tar.xz && rm -rf ${HOME}/kalifs-arm64-minimal.tar.xz && rm -rf ${HOME}/kalifs-armhf-minimal.sha512sum && rm -rf ${HOME}/kalifs-arm64-minimal.sha512sum"
+  bash -c "cd ${HOME} && $(curl -fsSL https://bit.ly/install-nethunter-minimal-termux) && rm -rf ${HOME}/kalifs-armhf-minimal.tar.xz && rm -rf ${HOME}/kalifs-arm64-minimal.tar.xz && rm -rf ${HOME}/kalifs-armhf-minimal.sha512sum && rm -rf ${HOME}/kalifs-arm64-minimal.sha512sum"
+}
+
+function nano() {
+  bash -c "cd ${HOME} && $(curl -fsSL https://bit.ly/install-nethunter-nano-termux) && rm -rf ${HOME}/kalifs-armhf-nano.tar.xz && rm -rf ${HOME}/kalifs-arm64-nano.tar.xz && rm -rf ${HOME}/kalifs-armhf-nano.sha512sum && rm -rf ${HOME}/kalifs-arm64-nano.sha512sum"
 }
 
 function uninstall() {
@@ -53,6 +59,10 @@ if [[ $@ ]]; then
         ;;
       -m|--minimal)
         minimal
+        shift
+        ;;
+      -n|--nano)
+        nano
         shift
         ;;
       -u|--uninstall)
