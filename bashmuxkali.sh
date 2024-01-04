@@ -54,6 +54,7 @@ function usage() {
 
 # Process Command Line Arguments
 if [[ $@ ]]; then
+  # Parsing Command Line Arguments
   while [[ "$1" != "" ]]; do
     # Command Line Arguments
     case $1 in
