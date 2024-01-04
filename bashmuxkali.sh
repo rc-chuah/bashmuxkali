@@ -20,6 +20,11 @@ function nano() {
   bash -c "cd ${HOME} && $(curl -fsSL https://bit.ly/install-nethunter-nano-termux) && rm -rf ${HOME}/kalifs-armhf-nano.tar.xz && rm -rf ${HOME}/kalifs-arm64-nano.tar.xz && rm -rf ${HOME}/kalifs-armhf-nano.sha512sum && rm -rf ${HOME}/kalifs-arm64-nano.sha512sum"
 }
 
+# Uninstall Kali Nethunter In Termux Function
+function uninstall() {
+  bash -c "rm -rf ${HOME}/kali-arm64 && rm -rf ${HOME}/kali-armhf && rm -rf ${PREFIX}/bin/nh && rm -rf ${PREFIX}/bin/nethunter && sleep 1 && echo [+] Successfully Uninstalled ..."
+}
+
 # Show Usage Via Command Line Arguments Function
 function usage() {
   echo "usage: $0 [-f] [-m] [-n] [-u] [-h]"
@@ -38,11 +43,6 @@ function usage() {
   echo "  -h, --help       Show This Help Message And Exit."
   echo ""
   exit
-}
-
-# Uninstall Kali Nethunter In Termux Function
-function uninstall() {
-  bash -c "rm -rf ${HOME}/kali-arm64 && rm -rf ${HOME}/kali-armhf && rm -rf ${PREFIX}/bin/nh && rm -rf ${PREFIX}/bin/nethunter && sleep 1 && echo [+] Successfully Uninstalled ..."
 }
 
 # ===================
