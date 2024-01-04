@@ -25,4 +25,3 @@ options:
                    Termux.
   -h, --help       Show This Help Message And Exit.
 ```
-test
