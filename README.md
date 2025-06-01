@@ -25,3 +25,15 @@ options:
                    Termux.
   -h, --help       Show This Help Message And Exit.
 ```
+
+## Star History
+<a href="https://www.star-history.com/#rc-chuah/bashmuxkali&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rc-chuah/bashmuxkali&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rc-chuah/bashmuxkali&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rc-chuah/bashmuxkali&type=Date" />
+ </picture>
+</a>
+
+## Stargazers Over Time
+[![Stargazers over time](https://starchart.cc/rc-chuah/bashmuxkali.svg?variant=adaptive)](https://starchart.cc/rc-chuah/bashmuxkali)
