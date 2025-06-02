@@ -36,4 +36,4 @@ options:
 </a>
 
 ## Stargazers Over Time
-[![Stargazers over time](https://starchart.cc/rc-chuah/bashmuxkali.svg?variant=adaptive)](https://starchart.cc/rc-chuah/bashmuxkali)
+[![Stargazers Over Time](https://starchart.cc/rc-chuah/bashmuxkali.svg?variant=adaptive)](https://starchart.cc/rc-chuah/bashmuxkali)
